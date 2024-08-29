@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Programador</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .project {
+            background: #eee;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 15px;
+            flex: 1;
+            min-width: 300px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou um programador apaixonado por desenvolvimento web e tenho experiência em várias tecnologias. Meu objetivo é criar soluções eficientes e inovadoras para desafios complexos.</p>
+            <p>Experiência em:</p>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Node.js</li>
+                <li>Python, Django</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição do projeto 1. Um aplicativo web para gerenciar tarefas, feito com React e Node.js.</p>
+                </div>
+                <div class="project">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição do projeto 2. Um site de e-commerce desenvolvido com Django e Python.</p>
+                </div>
+                <div class="project">
+                    <h3>Projeto 3</h3>
+                    <p>Descrição do projeto 3. Um portfólio pessoal criado com HTML, CSS e JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Se você deseja entrar em contato, envie um e-mail para <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a>.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
